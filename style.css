@@ -54,3 +54,37 @@
   font-size: 0.9em;
   padding: 0 15px 15px;
 }
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .portfolio-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+}
+
