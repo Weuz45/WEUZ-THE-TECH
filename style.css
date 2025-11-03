@@ -87,4 +87,63 @@
     width: 100%;
   }
 }
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #0d0d0d;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: 2px solid #1f8fff;
+}
+
+.footer-content h3 {
+  font-size: 24px;
+  color: #00ccff;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.social-links {
+  margin: 15px 0;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  filter: brightness(0) invert(1);
+}
+
+.footer .copyright {
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Responsive footer */
+@media (max-width: 768px) {
+  .footer-content h3 {
+    font-size: 20px;
+  }
+  .social-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 
